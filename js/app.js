@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		let data = $('#js-form').serializeArray();
 		$.ajax({
 			type: "GET",
-			url: "act.php", 
+			url: "act.php",  
 			data: data, 
 			success: (data) => {
 				$("#results").html("succes")
